@@ -3,13 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Learning how to create a form using HTML</title>
 </head>
 <body>
-    <h1>Hello,</h1>
-    <h2>Welcome to my website🤪</h2>
-    <h3>Sorry to say,here is nothing to see,😁</h3>
-    <h3>just trying to explore😉</h3>
-    <h1>Thank you for visiting!🤭❤️</h1>
+    <h1>Learning how to create a form using HTML</h1>
+<form action="form.html">
+<label >Name:</label>
+
+<input type="text" name="name" placeholder="Enter your name"><br>
+<br>    
+
+<label>Birth date: </label>
+<input type="date" name ="birthdate" ><br>
+<br>
+<label>Country: </label>
+
+<select id="country" name="country" placeholder="Select your country">
+    <option >Select your country</option>
+    <option value="newyork">New York</option>
+    <option value="losangeles">Los Angeles</option>
+    <option value="chicago">Chicago</option>
+    <option value="houston">Houston</option>
+    <option value="miami">Miami</option>     
+     <option value="Bangladesh">Bangladesh</option>
+    <option value="Australia">Australia</option>
+    <option value="Canada">Canada</option>
+    <option value="Germany">Germany</option>
+    <option value="America">America</option>            
+</select>
+<br>
+<br>
+<label >Gender: </label>
+<select id="gender" name="gender">
+    <option value="Gender">Select your gender</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+</select>
+<br>
+<br>    
+<label type="email" > Email: </label>
+<input type="email" name="email" placeholder="Enter your email"><br>
+<br>
+<label type="password">Password: </label>
+<input type="password" name="password" placeholder="Enter your password"><br>
+<br>
+
+<a href="form.html">
+    <button type="submit" >Submit</button>
+</a>
+
+   </form>                                                      
 </body>
 </html>
