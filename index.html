@@ -10,16 +10,16 @@
 <form action="form.html">
 <label >Name:</label>
 
-<input type="text" name="name" placeholder="Enter your name"><br>
+<input type="text" name="name" placeholder="Enter your name" required><br>
 <br>    
 
 <label>Birth date: </label>
-<input type="date" name ="birthdate" ><br>
+<input type="date" name ="birthdate" required ><br>
 <br>
 <label>Country: </label>
 
 <select id="country" name="country" placeholder="Select your country">
-    <option >Select your country</option>
+    <option value="">Select your country</option>
     <option value="newyork">New York</option>
     <option value="losangeles">Los Angeles</option>
     <option value="chicago">Chicago</option>
@@ -35,23 +35,22 @@
 <br>
 <label >Gender: </label>
 <select id="gender" name="gender">
-    <option value="Gender">Select your gender</option>
+    <option value="">Select your gender</option>
     <option value="male">Male</option>
     <option value="female">Female</option>
     <option value="other">Other</option>
 </select>
 <br>
 <br>    
-<label type="email" > Email: </label>
-<input type="email" name="email" placeholder="Enter your email"><br>
+<label > Email: </label>
+<input type="email" name="email" placeholder="Enter your email" required><br>
 <br>
-<label type="password">Password: </label>
-<input type="password" name="password" placeholder="Enter your password"><br>
+<label>Password: </label>
+<input type="password" name="password" placeholder="Enter your password" required><br>
 <br>
 
-<a href="form.html">
     <button type="submit" >Submit</button>
-</a>
+
 
    </form>                                                      
 </body>
